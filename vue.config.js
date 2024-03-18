@@ -3,5 +3,5 @@ module.exports = defineConfig({
   transpileDependencies: true
 })
 module.exports = {
-  publicPath: '/course-vue-ts/dist/'
+  publicPath: '/course-vue/dist/'
 }
