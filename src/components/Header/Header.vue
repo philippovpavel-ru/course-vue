@@ -14,7 +14,10 @@
           </button>
         </li>
         <li class="header__nav-item">
-          <button class="header__btn header__btn--avatar">
+          <button
+            class="header__btn header__btn--avatar"
+            @click="$router.push({ name: 'repositories' })"
+          >
             <Avatar :avatarUrl="avatarUrl" />
           </button>
         </li>
