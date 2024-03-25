@@ -19,6 +19,7 @@
           <Repository
             :status="repo.follow"
             :repositoryData="{
+              postUrl: repo?.html_url,
               title: repo?.name,
               text: repo?.description,
               stats: {
